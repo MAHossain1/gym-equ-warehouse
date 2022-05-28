@@ -29,11 +29,11 @@ const Navbar = () => {
         <Link to="/myportfolio">My Portfolio</Link>
       </li>
 
-      {user && (
+      {/* {user && (
         <li>
           <Link to="/dashboard">Dashboard</Link>
         </li>
-      )}
+      )} */}
       <li>
         {user ? (
           <>
