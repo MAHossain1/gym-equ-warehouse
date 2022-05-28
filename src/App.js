@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import RequireAuth from "./pages/Login/RequireAuth";
 import SignIn from "./pages/Login/SignIn";
 import SignUp from "./pages/Login/SignUp";
+import Footer from "./pages/Shared/Footer";
 import Navbar from "./pages/Shared/Navbar";
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }

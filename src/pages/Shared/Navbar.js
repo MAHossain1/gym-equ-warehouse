@@ -76,7 +76,7 @@ const Navbar = () => {
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-white text-xl">
-          Perfect Garden Tools
+          GymEqu Hub
         </a>
       </div>
       <div className="navbar-end hidden lg:flex">
