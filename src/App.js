@@ -1,11 +1,7 @@
 import "./App.css";
 
 function App() {
-  return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
-  );
+  return <div className="max-w-7xl mx-auto px-12"></div>;
 }
 
 export default App;
