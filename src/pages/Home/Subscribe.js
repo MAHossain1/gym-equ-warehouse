@@ -5,7 +5,7 @@ const Subscribe = () => {
     <div class="hero  ">
       <div class="hero-content flex-col lg:flex-row-reverse">
         <div class="text-center lg:text-left">
-          <h1 class="text-4xl font-bold">Subscribe Now!</h1>{" "}
+          <h1 class="text-4xl font-bold text-primary">Subscribe Now!</h1>{" "}
           <p class="py-6">
             The importance of cleanliness when it comes to commercial fitness
             equipment is often overlooked, but introducing and adhering to a

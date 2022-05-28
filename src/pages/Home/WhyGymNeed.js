@@ -7,11 +7,11 @@ const WhyGymNeed = () => {
       <div className="hero-content flex-col lg:flex-row">
         <img
           src={articleimg}
-          className="max-w-sm rounded-lg shadow-2xl"
+          className="max-w-sm w-80 rounded-lg shadow-2xl"
           alt="safety_img"
         />
         <div>
-          <h1 className="text-5xl font-bold">
+          <h1 className="text-3xl font-bold text-primary">
             Top Reasons Why Workout Gear and Equipment Is So Important
           </h1>
           <p className="text-3xl py-5">Our amazing tips for taking Exercise</p>

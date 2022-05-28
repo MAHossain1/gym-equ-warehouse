@@ -7,6 +7,7 @@ import SignIn from "./pages/Login/SignIn";
 import SignUp from "./pages/Login/SignUp";
 import Footer from "./pages/Shared/Footer";
 import Navbar from "./pages/Shared/Navbar";
+import NotFound from "./pages/Shared/NotFound";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
