@@ -1,0 +1,56 @@
+[
+  {
+    "_id": 1,
+    "image": "https://i.ibb.co/HDWcZKF/image-2.jpg",
+    "name": "DUMBBELLS",
+    "description": "Commercial gyms and home gyms – free weights are versatile as you can perform many different moves with them. If you have a home gym, you might want to consider adjustable dumbbells to save you worrying about storage.",
+    "Supplier": "PerFect Chinese Gym",
+    "quantity": 1000,
+    "price": 99
+  },
+  {
+    "_id": 2,
+    "image": "https://i.ibb.co/X7BYS8j/image-4.jpg",
+    "name": "SPIN BIKE",
+    "description": "A spin bike is a stationary bike that mimics a road bike. The difference is, there is only one singular wheel. Using this machine, you sit on a padded seat and peddle, causing the spinning disc to move. The disc can have different levels of resistance added to it to simulate cycling in the real world.",
+    "Supplier": "Shino Japanese GYM",
+    "quantity": 565,
+    "price": 300
+  },
+  {
+    "_id": 3,
+    "image": "https://i.ibb.co/BKF3Myh/image-5.jpg",
+    "name": "TREADMILL",
+    "description": " The majority of treadmills on the market are more than capable of providing a steep enough incline for general users, for instance, even our budget recommendation the York T700 Treadmill, is capable of a 15% incline!",
+    "Supplier": "Shino Japanese GYM",
+    "quantity": 400,
+    "price": 599
+  },
+  {
+    "_id": 4,
+    "image": "https://i.ibb.co/cDK9tMW/image-6.jpg",
+    "name": "Alternating rope whips",
+    "description": "Battle ropes are no passing fad. They’ve been around since the mid-noughties and interest has steadily increased to the point where nearly all gyms have a set. And there’s a good reason for such widespread adoption. Throwing these thick, heavy ropes about does more than look impressive – it’s a ruthlessly effective workout.",
+    "Supplier": "Mirra Fit",
+    "quantity": 1000,
+    "price": 49
+  },
+  {
+    "_id": 5,
+    "image": "https://i.ibb.co/gTPJTKn/image-8.jpg",
+    "name": "SHAKTI DUMBBELL",
+    "description": "While it may be safer to use a pronated grip rather than a supinated grip in certain situations (think: squats and lunges with a barbell back-racked on your shoulders), most often, you should simply choose the grip style that helps you meet your fitness goals.",
+    "Supplier": "FIT Life GYM Ind.",
+    "quantity": 1000,
+    "price": 99
+  },
+  {
+    "_id": 6,
+    "image": "https://i.ibb.co/qDzThfv/image-9.jpg",
+    "name": "Heavy Duty Weight Lifting Dumbbell Barbell ",
+    "description": "250KG Heavy Duty Weight Lifting Bench Press Split Type Barbell Stand Squat Rack Gym Dumbbell Exercise (F15)",
+    "Supplier": "PerFect Chinese Gym",
+    "quantity": 146,
+    "price": 90
+  }
+]
