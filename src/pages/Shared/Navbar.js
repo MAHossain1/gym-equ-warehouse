@@ -25,15 +25,22 @@ const Navbar = () => {
       <li>
         <Link to="/blog">Blog</Link>
       </li>
-      <li>
-        <Link to="/myportfolio">My Portfolio</Link>
-      </li>
 
-      {/* {user && (
+      {user && (
         <li>
-          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/manageitems">Manage Items</Link>
         </li>
-      )} */}
+      )}
+      {user && (
+        <li>
+          <Link to="/additem">Add Item</Link>
+        </li>
+      )}
+      {user && (
+        <li>
+          <Link to="/myitems">My Items</Link>
+        </li>
+      )}
       <li>
         {user ? (
           <>

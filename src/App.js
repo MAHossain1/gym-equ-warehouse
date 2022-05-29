@@ -6,6 +6,9 @@ import ProceedUpdate from "./pages/Home/ProceedUpdate";
 import RequireAuth from "./pages/Login/RequireAuth";
 import SignIn from "./pages/Login/SignIn";
 import SignUp from "./pages/Login/SignUp";
+import AddItem from "./pages/Manage/AddItem";
+import ManageItems from "./pages/Manage/ManageItems";
+import MyItems from "./pages/Manage/MyItems";
 import Footer from "./pages/Shared/Footer";
 import Navbar from "./pages/Shared/Navbar";
 import NotFound from "./pages/Shared/NotFound";
@@ -27,14 +30,10 @@ function App() {
             </RequireAuth>
           }
         />
-        <Route
-          path="/blog"
-          element={
-            <RequireAuth>
-              <Blog />
-            </RequireAuth>
-          }
-        />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/manageitems" element={<ManageItems />} />
+        <Route path="/additem" element={<AddItem />} />
+        <Route path="/myitems" element={<MyItems />} />
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} />
         <Route path="*" element={<NotFound></NotFound>}></Route>
