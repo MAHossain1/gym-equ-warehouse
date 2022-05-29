@@ -15,7 +15,7 @@ const Update = () => {
   console.log(delevered);
 
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 my-20">
       <div className="card lg:max-w-lg  bg-base-100 shadow-xl">
         <div className="card-body">
           <h2 className="text-center text-3xl font-bold text-primary">
