@@ -36,7 +36,7 @@ const Blog = () => {
       <br />
 
       <h2 className="text-x font-bold">
-        3. What is the purpose of jwt and how does it work
+        3. What is the purpose of jwt and how does it work ?
       </h2>
       <p>
         {" "}
